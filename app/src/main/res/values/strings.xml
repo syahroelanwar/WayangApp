@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pembelajaran Tokoh Wayang</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string name="img_path">https://wayangserver.000webhostapp.com/foto_wayang/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">next</string>
+
+
+    <string name="initStr">this is a init sentence</string>
+</resources>

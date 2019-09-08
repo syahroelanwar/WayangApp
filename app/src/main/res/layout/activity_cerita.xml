@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:fitsSystemWindows="true"
+                                                 tools:context=".CeritaActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                  android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                android:clickable="true"
+                android:id="@+id/brt1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="5dp"
+                        android:src="@drawable/crt"
+                />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-3dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@id/img1"
+                        android:paddingLeft="10dp"
+                        android:text="Resi Seta Gugur"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                android:clickable="true"
+                android:id="@+id/brt2"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="5dp"
+                        android:src="@drawable/crt"
+                />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-3dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@id/img2"
+                        android:paddingLeft="10dp"
+                        android:text="Resi Bisma Gugur"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                android:clickable="true"
+                android:id="@+id/brt3"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="5dp"
+                        android:src="@drawable/crt"
+                />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-3dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@id/img3"
+                        android:paddingLeft="10dp"
+                        android:text="Resi Durna Senapati"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                android:clickable="true"
+                android:id="@+id/brt4"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="5dp"
+                        android:src="@drawable/crt"
+                />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-3dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@id/img4"
+                        android:paddingLeft="10dp"
+                        android:text="Ranjapan Abimanyu Gugur"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

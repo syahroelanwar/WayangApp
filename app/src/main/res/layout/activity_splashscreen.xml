@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/mLayout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/sp_bg4"
+        android:layout_height="match_parent"
+        tools:context=".SplashscreenActivity">
+
+    <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:src="@drawable/sp_anim_color"/>
+
+    <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/final_delay"/>
+</LinearLayout>

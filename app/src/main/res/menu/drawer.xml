@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav1"
+                android:icon="@drawable/ic_pro"
+                android:title="Profil" />
+        <item
+                android:id="@+id/nav2"
+                android:icon="@drawable/ic_contact"
+                android:title="Kontak" />
+        <item
+                android:id="@+id/nav3"
+                android:icon="@drawable/ic_about"
+                android:title="Tentang" />
+    </group>
+
+    <item android:title="Sosial">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/nav4"
+                        android:icon="@drawable/ic_rate"
+                        android:title="Beri Rating" />
+                <item
+                        android:id="@+id/nav5"
+                        android:icon="@drawable/ic_share"
+                        android:title="Bagikan Aplikasi" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Lainnya">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/nav6"
+                        android:icon="@drawable/ic_so"
+                        android:title="Keluar" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

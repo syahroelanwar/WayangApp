@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.skripsi155410177.wayangapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/lc_apk"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/lo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="com.skripsi155410177.wayangapp.CeritaDetailActivity">
+        </activity>
+        <activity android:name="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.TokohDetailActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.TokohActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.ndActivity.TentangActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.ndActivity.KontakActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.ndActivity.ProfilActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.MateriActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.LatihanActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.CeritaActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity
+                android:name="com.skripsi155410177.wayangapp.TokohActivity"
+                android:parentActivityName="com.skripsi155410177.wayangapp.MainActivity">
+        </activity>
+        <activity android:name="com.skripsi155410177.wayangapp.SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
